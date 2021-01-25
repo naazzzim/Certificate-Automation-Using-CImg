@@ -1,4 +1,3 @@
-#include<X11/Xlib.h>
 #include "CImg.h"
 #include<iostream>
 #include<fstream>
@@ -9,6 +8,8 @@
 #define X2 26.953
 #define Y2 51.770
 #define fontsize 42
+        //make sure there is header file, certificate.jpg and students.csv in the same folder
+        //type make in terminal to run
 int main(){
     std::ifstream myFile;
     myFile.open("students.csv");
