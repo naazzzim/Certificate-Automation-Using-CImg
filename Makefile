@@ -1,3 +1,3 @@
 all:
-	g++ -Wall -o index index.cpp     -lpthread -lX11
+	g++ -Wall -o index index.cpp     -lpthread
 	./index
